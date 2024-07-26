@@ -1,5 +1,5 @@
-const describe
- = function (s, p) {
+const decodeTheRing
+ = function describe (s, p) {
   const m = s.length;
   const n = p.length;
 
@@ -32,4 +32,4 @@ const describe
   return dp[m][n];
 };
 
-module.exports = describe;
+module.exports = decodeTheRing;
